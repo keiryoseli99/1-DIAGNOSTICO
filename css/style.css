@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+.login{
+    margin-bottom: 20px;
+}
+.factoriales {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.factoriales thead th,
+.factoriales tbody td {
+    border: black 1px solid;
+}
+.factoriales thead th{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.factoriales tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+.factoriales tbody tr:nth-of-type(even) {
+    background-color: #d3d3d3;
+}
+.factoriales tbody tr td:nth-child(1) {
+    text-align: center;
+}
+.factoriales tbody tr td:nth-child(2) {
+    text-align:left;
+}
+.factoriales tbody tr td:nth-child(3) {
+    text-align:right;
+}
+.pie {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
